@@ -44,6 +44,26 @@ export default function Home() {
           <Image src={devBI} fill style={"cover"} />
         </div>
       </section>
+      <section>
+        <div>
+          <h3 className="text-3xl py-1">Services I offer</h3>
+          <p className="text-md py-2 leading-8 text-gray-800">
+            As a front-end developer, I bring designs to life with responsive
+            and interactive user interfaces. With expertise in{" "}
+            <span className="text-midCherry">
+              HTML, CSS, JavaScript, React and Tailwind
+            </span>
+            , I build exceptional websites that deliver seamless user
+            experiences.
+          </p>
+          <p className="text-md py-2 leading-8 text-gray-800">
+            Whether you're looking to build a new website or optimize an
+            existing one, I have the skills and expertise to help you achieve
+            your goals. Let's work together to bring your website to the next
+            level!
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
